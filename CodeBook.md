@@ -46,17 +46,17 @@ Output variables
 * tBodyAccJerk-mean()-Z
   * mean of time domain signal of BodyAccJerk feature for Z axis
 * tBodyGyro-mean()-X
-  * mean of time domain signal of BodyAccJerk feature for X axis
+  * mean of time domain signal of BodyGyro feature for X axis
 * tBodyGyro-mean()-Y
-  * mean of time domain signal of BodyAccJerk feature for Y axis
+  * mean of time domain signal of BodyGyro feature for Y axis
 * tBodyGyro-mean()-Z
-  * mean of time domain signal of BodyAccJerk feature for Z axis
+  * mean of time domain signal of BodyGyro feature for Z axis
 * tBodyGyroJerk-mean()-X
-  * mean of time domain signal of BodyAccJerk feature for X axis
+  * mean of time domain signal of BodyGyroJerk feature for X axis
 * tBodyGyroJerk-mean()-Y
-  * mean of time domain signal of BodyAccJerk feature for Y axis
+  * mean of time domain signal of BodyGyroJerk feature for Y axis
 * tBodyGyroJerk-mean()-Z
-  * mean of time domain signal of BodyAccJerk feature for Z axis
+  * mean of time domain signal of BodyGyroJerk feature for Z axis
 * tBodyAccMag-mean()
   * mean of time domain signal of BodyAccMag feature
 * tGravityAccMag-mean()
@@ -80,11 +80,11 @@ Output variables
 * fBodyAccJerk-mean()-Z
   * mean of FFT of time domain signal of BodyAccJerk feature for Z axis
 * fBodyGyro-mean()-X
-  * mean of FFT of time domain signal of BodyAccJerk feature for X axis
+  * mean of FFT of time domain signal of BodyGyro feature for X axis
 * fBodyGyro-mean()-Y
-  * mean of FFT of time domain signal of BodyAccJerk feature for Y axis
+  * mean of FFT of time domain signal of BodyGyro feature for Y axis
 * fBodyGyro-mean()-Z
-  * mean of FFT of time domain signal of BodyAccJerk feature for Z axis
+  * mean of FFT of time domain signal of BodyGyro feature for Z axis
 * fBodyAccMag-mean()
   * mean of FFT of time domain signal of BodyAccMag feature
 * fBodyAccJerkMag-mean()
@@ -112,17 +112,17 @@ Output variables
 * tBodyAccJerk-std()-Z
   * standard deviation of time domain signal of BodyAccJerk feature for Z axis
 * tBodyGyro-std()-X
-  * standard deviation of time domain signal of BodyAccJerk feature for X axis
+  * standard deviation of time domain signal of BodyGyro feature for X axis
 * tBodyGyro-std()-Y
-  * standard deviation of time domain signal of BodyAccJerk feature for Y axis
+  * standard deviation of time domain signal of BodyGyro feature for Y axis
 * tBodyGyro-std()-Z
-  * standard deviation of time domain signal of BodyAccJerk feature for Z axis
+  * standard deviation of time domain signal of BodyGyro feature for Z axis
 * tBodyGyroJerk-std()-X
-  * standard deviation of time domain signal of BodyAccJerk feature for X axis
+  * standard deviation of time domain signal of BodyGyroJerk feature for X axis
 * tBodyGyroJerk-std()-Y
-  * standard deviation of time domain signal of BodyAccJerk feature for Y axis
+  * standard deviation of time domain signal of BodyGyroJerk feature for Y axis
 * tBodyGyroJerk-std()-Z
-  * standard deviation of time domain signal of BodyAccJerk feature for Z axis
+  * standard deviation of time domain signal of BodyGyroJerk feature for Z axis
 * tBodyAccMag-std()
   * standard deviation of time domain signal of BodyAccMag feature
 * tGravityAccMag-std()
@@ -146,11 +146,11 @@ Output variables
 * fBodyAccJerk-std()-Z
   * standard deviation of FFT of time domain signal of BodyAccJerk feature for Z axis
 * fBodyGyro-std()-X
-  * standard deviation of FFT of time domain signal of BodyAccJerk feature for X axis
+  * standard deviation of FFT of time domain signal of BodyGyro feature for X axis
 * fBodyGyro-std()-Y
-  * standard deviation of FFT of time domain signal of BodyAccJerk feature for Y axis
+  * standard deviation of FFT of time domain signal of BodyGyro feature for Y axis
 * fBodyGyro-std()-Z
-  * standard deviation of FFT of time domain signal of BodyAccJerk feature for Z axis
+  * standard deviation of FFT of time domain signal of BodyGyro feature for Z axis
 * fBodyAccMag-std()
   * standard deviation of FFT of time domain signal of BodyAccMag feature
 * fBodyAccJerkMag-std()
