@@ -27,141 +27,142 @@ Output variables
   * ID number of the test subject.  This ranges from 1 to 30
 * activity_label
   * Descriptive label of the type of activity the subject was doing during the measurement
-* tBodyAcc-mean()-X
+* tBodyAcc_mean_X
   * mean of time domain signal of BodyAcc feature for X axis
-* tBodyAcc-mean()-Y
+* tBodyAcc_mean_Y
   * mean of time domain signal of BodyAcc feature for Y axis
-* tBodyAcc-mean()-Z
+* tBodyAcc_mean_Z
   * mean of time domain signal of BodyAcc feature for Z axis
-* tGravityAcc-mean()-X
+* tGravityAcc_mean_X
   * mean of time domain signal of GravityAcc feature for X axis
-* tGravityAcc-mean()-Y
+* tGravityAcc_mean_Y
   * mean of time domain signal of GravityAcc feature for Y axis
-* tGravityAcc-mean()-Z
+* tGravityAcc_mean_Z
   * mean of time domain signal of GravityAcc feature for Z axis
-* tBodyAccJerk-mean()-X
+* tBodyAccJerk_mean_X
   * mean of time domain signal of BodyAccJerk feature for X axis
-* tBodyAccJerk-mean()-Y
+* tBodyAccJerk_mean_Y
   * mean of time domain signal of BodyAccJerk feature for Y axis
-* tBodyAccJerk-mean()-Z
+* tBodyAccJerk_mean_Z
   * mean of time domain signal of BodyAccJerk feature for Z axis
-* tBodyGyro-mean()-X
+* tBodyGyro_mean_X
   * mean of time domain signal of BodyGyro feature for X axis
-* tBodyGyro-mean()-Y
+* tBodyGyro_mean_Y
   * mean of time domain signal of BodyGyro feature for Y axis
-* tBodyGyro-mean()-Z
+* tBodyGyro_mean_Z
   * mean of time domain signal of BodyGyro feature for Z axis
-* tBodyGyroJerk-mean()-X
+* tBodyGyroJerk_mean_X
   * mean of time domain signal of BodyGyroJerk feature for X axis
-* tBodyGyroJerk-mean()-Y
+* tBodyGyroJerk_mean_Y
   * mean of time domain signal of BodyGyroJerk feature for Y axis
-* tBodyGyroJerk-mean()-Z
+* tBodyGyroJerk_mean_Z
   * mean of time domain signal of BodyGyroJerk feature for Z axis
-* tBodyAccMag-mean()
+* tBodyAccMag_mean
   * mean of time domain signal of BodyAccMag feature
-* tGravityAccMag-mean()
+* tGravityAccMag_mean
   * mean of time domain signal of GravityAccMag feature 
-* tBodyAccJerkMag-mean()
+* tBodyAccJerkMag_mean
   * mean of time domain signal of AccJerkMag feature 
-* tBodyGyroMag-mean()
+* tBodyGyroMag_mean
   * mean of time domain signal of BodyGyroMag feature 
-* tBodyGyroJerkMag-mean()
+* tBodyGyroJerkMag_mean
   * mean of time domain signal of BodyGyroJerkMag feature
-* fBodyAcc-mean()-X
+* fBodyAcc_mean_X
   * mean of FFT of time domain signal of BodyAcc feature for X axis
-* fBodyAcc-mean()-Y
+* fBodyAcc_mean_Y
   * mean of FFT of time domain signal of BodyAcc feature for Y axis
-* fBodyAcc-mean()-Z
+* fBodyAcc_mean_Z
   * mean of FFT of time domain signal of BodyAcc feature for Z axis
-* fBodyAccJerk-mean()-X
+* fBodyAccJerk_mean_X
   * mean of FFT of time domain signal of BodyAccJerk feature for X axis
-* fBodyAccJerk-mean()-Y
+* fBodyAccJerk_mean_Y
   * mean of FFT of time domain signal of BodyAccJerk feature for Y axis
-* fBodyAccJerk-mean()-Z
+* fBodyAccJerk_mean_Z
   * mean of FFT of time domain signal of BodyAccJerk feature for Z axis
-* fBodyGyro-mean()-X
+* fBodyGyro_mean_X
   * mean of FFT of time domain signal of BodyGyro feature for X axis
-* fBodyGyro-mean()-Y
+* fBodyGyro_mean_Y
   * mean of FFT of time domain signal of BodyGyro feature for Y axis
-* fBodyGyro-mean()-Z
+* fBodyGyro_mean_Z
   * mean of FFT of time domain signal of BodyGyro feature for Z axis
-* fBodyAccMag-mean()
+* fBodyAccMag_mean
   * mean of FFT of time domain signal of BodyAccMag feature
-* fBodyAccJerkMag-mean()
+* fBodyAccJerkMag_mean
   * mean of FFT of time domain signal of AccJerkMag feature 
-* fBodyGyroMag-mean()
+* fBodyGyroMag_mean
   * mean of FFT of time domain signal of BodyGyroMag feature 
-* fBodyGyroJerkMag-mean()
+* fBodyGyroJerkMag_mean
   * mean of FFT of time domain signal of BodyGyroJerkMag feature
-* tBodyAcc-std()-X
+* tBodyAcc_std_X
   * standard deviation of time domain signal of BodyAcc feature for X axis
-* tBodyAcc-std()-Y
+* tBodyAcc_std_Y
   * standard deviation of time domain signal of BodyAcc feature for Y axis
-* tBodyAcc-std()-Z
+* tBodyAcc_std_Z
   * standard deviation of time domain signal of BodyAcc feature for Z axis
-* tGravityAcc-std()-X
+* tGravityAcc_std_X
   * standard deviation of time domain signal of GravityAcc feature for X axis
-* tGravityAcc-std()-Y
+* tGravityAcc_std_Y
   * standard deviation of time domain signal of GravityAcc feature for Y axis
-* tGravityAcc-std()-Z
+* tGravityAcc_std_Z
   * standard deviation of time domain signal of GravityAcc feature for Z axis
-* tBodyAccJerk-std()-X
+* tBodyAccJerk_std_X
   * standard deviation of time domain signal of BodyAccJerk feature for X axis
-* tBodyAccJerk-std()-Y
+* tBodyAccJerk_std_Y
   * standard deviation of time domain signal of BodyAccJerk feature for Y axis
-* tBodyAccJerk-std()-Z
+* tBodyAccJerk_std_Z
   * standard deviation of time domain signal of BodyAccJerk feature for Z axis
-* tBodyGyro-std()-X
+* tBodyGyro_std_X
   * standard deviation of time domain signal of BodyGyro feature for X axis
-* tBodyGyro-std()-Y
+* tBodyGyro_std_Y
   * standard deviation of time domain signal of BodyGyro feature for Y axis
-* tBodyGyro-std()-Z
+* tBodyGyro_std_Z
   * standard deviation of time domain signal of BodyGyro feature for Z axis
-* tBodyGyroJerk-std()-X
+* tBodyGyroJerk_std_X
   * standard deviation of time domain signal of BodyGyroJerk feature for X axis
-* tBodyGyroJerk-std()-Y
+* tBodyGyroJerk_std_Y
   * standard deviation of time domain signal of BodyGyroJerk feature for Y axis
-* tBodyGyroJerk-std()-Z
+* tBodyGyroJerk_std_Z
   * standard deviation of time domain signal of BodyGyroJerk feature for Z axis
-* tBodyAccMag-std()
+* tBodyAccMag_std
   * standard deviation of time domain signal of BodyAccMag feature
-* tGravityAccMag-std()
+* tGravityAccMag_std
   * standard deviation of time domain signal of GravityAccMag feature 
-* tBodyAccJerkMag-std()
+* tBodyAccJerkMag_std
   * standard deviation of time domain signal of AccJerkMag feature 
-* tBodyGyroMag-std()
+* tBodyGyroMag_std
   * standard deviation of time domain signal of BodyGyroMag feature 
-* tBodyGyroJerkMag-std()
+* tBodyGyroJerkMag_std
   * standard deviation of time domain signal of BodyGyroJerkMag feature
-* fBodyAcc-std()-X
+* fBodyAcc_std_X
   * standard deviation of FFT of time domain signal of BodyAcc feature for X axis
-* fBodyAcc-std()-Y
+* fBodyAcc_std_Y
   * standard deviation of FFT of time domain signal of BodyAcc feature for Y axis
-* fBodyAcc-std()-Z
+* fBodyAcc_std_Z
   * standard deviation of FFT of time domain signal of BodyAcc feature for Z axis
-* fBodyAccJerk-std()-X
+* fBodyAccJerk_std_X
   * standard deviation of FFT of time domain signal of BodyAccJerk feature for X axis
-* fBodyAccJerk-std()-Y
+* fBodyAccJerk_std_Y
   * standard deviation of FFT of time domain signal of BodyAccJerk feature for Y axis
-* fBodyAccJerk-std()-Z
+* fBodyAccJerk_std_Z
   * standard deviation of FFT of time domain signal of BodyAccJerk feature for Z axis
-* fBodyGyro-std()-X
+* fBodyGyro_std_X
   * standard deviation of FFT of time domain signal of BodyGyro feature for X axis
-* fBodyGyro-std()-Y
+* fBodyGyro_std_Y
   * standard deviation of FFT of time domain signal of BodyGyro feature for Y axis
-* fBodyGyro-std()-Z
+* fBodyGyro_std_Z
   * standard deviation of FFT of time domain signal of BodyGyro feature for Z axis
-* fBodyAccMag-std()
+* fBodyAccMag_std
   * standard deviation of FFT of time domain signal of BodyAccMag feature
-* fBodyAccJerkMag-std()
+* fBodyAccJerkMag_std
   * standard deviation of FFT of time domain signal of AccJerkMag feature 
-* fBodyGyroMag-std()
+* fBodyGyroMag_std
   * standard deviation of FFT of time domain signal of BodyGyroMag feature 
-* fBodyGyroJerkMag-std()
+* fBodyGyroJerkMag_std
   * standard deviation of FFT of time domain signal of BodyGyroJerkMag feature
   
 Transformations
 * Read features.txt data and labeled columns "feature_id" and "feature"
+  * Modify feature names to remove non-standard characters such as "-", "(", and ")"
 * Read activity_labels.txt data and labeled columns "activity_id" and "activity_label"
 * Training data
   * Read X_train.txt data and assigned column names to be the corresponding feature column of the features dataset above

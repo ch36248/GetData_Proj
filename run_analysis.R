@@ -15,9 +15,14 @@
 #    with the average of each variable for each activity and each subject.
 ##########################################################################################
 
-# Read Features labels file
+# Read Features labels file. Clean up feature names to remove non-standard characters
 features <- read.table("UCI HAR Dataset/features.txt")
 names(features) <- c("feature_id","feature")
+features$feature <- gsub("-","_",features$feature)
+features$feature <- gsub("()","",features$feature,fixed=TRUE)
+features$feature <- gsub("(","_",features$feature,fixed=TRUE)
+features$feature <- gsub(")","",features$feature,fixed=TRUE)
+features$feature <- gsub(",","_",features$feature,fixed=TRUE)
 
 # Read Activity Labels file
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
@@ -101,8 +106,9 @@ X_all <- rbind(X_train, X_test)
 # Select only identifier and mean() and std() columns
 #####################################################
 column_list <- c("partition","subject_id","activity_id","activity_label")
-column_list <- c(column_list, as.character(features$feature[grep("mean()", features$feature, fixed=TRUE)]))
-column_list <- c(column_list, as.character(features$feature[grep("std()", features$feature, fixed=TRUE)]))
+column_list <- c(column_list, as.character(grep("_mean", features$feature, fixed=TRUE, value=TRUE)))
+column_list <- grep("_meanFreq", column_list, fixed=TRUE, value=TRUE, invert=TRUE)
+column_list <- c(column_list, as.character(grep("_std", features$feature, fixed=TRUE, value=TRUE)))
 
 X_all_mean_std <- X_all[,column_list]
 
