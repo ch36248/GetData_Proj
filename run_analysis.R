@@ -101,8 +101,8 @@ X_all <- rbind(X_train, X_test)
 # Select only identifier and mean() and std() columns
 #####################################################
 column_list <- c("partition","subject_id","activity_id","activity_label")
-column_list <- c(column_list, as.character(features$feature[grep("mean()", features$feature)]))
-column_list <- c(column_list, as.character(features$feature[grep("std()", features$feature)]))
+column_list <- c(column_list, as.character(features$feature[grep("mean()", features$feature, fixed=TRUE)]))
+column_list <- c(column_list, as.character(features$feature[grep("std()", features$feature, fixed=TRUE)]))
 
 X_all_mean_std <- X_all[,column_list]
 
@@ -110,9 +110,9 @@ X_all_mean_std <- X_all[,column_list]
 # Group by subject_id, activity_label, take mean of all columns other than first 4
 #####################################################
 
-X_all_mean_std_summary <- aggregate(X_all_mean_std[,-(1:4)], list(subject_id=X_all_mean_std$subject_id,activity_label=X_all_mean_std$activity_label), FUN = "mean")
+X_all_mean_std_avg <- aggregate(X_all_mean_std[,-(1:4)], list(subject_id=X_all_mean_std$subject_id,activity_label=X_all_mean_std$activity_label), FUN = "mean")
 
-write.table(X_all_mean_std_summary,"X_all_mean_std_summary.txt", row.names=FALSE)
+write.table(X_all_mean_std_avg,"X_all_mean_std_avg.txt", row.names=FALSE)
 
 # Read data back in with:
-# read.table("X_all_mean_std_summary.txt", header=TRUE)
+# read.table("X_all_mean_std_avg.txt", header=TRUE)
